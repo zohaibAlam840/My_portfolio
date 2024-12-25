@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bgColor : "#151312",
+        navColor: '#1C1A19',
+        iconCol : '#f57f51',
+        textCol: '#353334',
+        cardHov: '#1c1a19'
       },
     },
   },
