@@ -10,11 +10,6 @@ import Expereience from "../component/mian/experinec";
 
 
 export default function Home() {
-  const [count, setCount] = useState(0);
-
-  const handleOnClick = () => {
-    setCount((prevCount) => prevCount + 1);
-  };
 
   return (
     <div className="flex flex-col w-screen h-screen bg-bgColor text-white overflow-x-hidden">

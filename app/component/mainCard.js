@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import imageProfile from "../assets/one.png";
 import { AiOutlineInstagram, AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail } from 'react-icons/ai';
 
