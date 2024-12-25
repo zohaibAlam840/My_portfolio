@@ -17,7 +17,7 @@ export default function InfoCard({ title, description, date, link }) {
         <h2 className="text-xl font-bold mb-2">{title}</h2>
 
         {/* Description */}
-        {/* <p className="text-gray-400 mb-4">{description}</p> */}
+        <p className="text-gray-400 mb-4">{description}</p>
 
         {/* Date */}
         <p className="text-sm text-gray-500">{date}</p>

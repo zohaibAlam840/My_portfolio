@@ -1,5 +1,4 @@
 'use client'
-import { useState } from "react";
 import { HiOutlineHome, HiOutlineCollection, HiOutlineLightBulb, HiOutlineBriefcase } from "react-icons/hi";
 import { FiTool } from "react-icons/fi";
 import Link from "next/link";
