@@ -15,7 +15,8 @@ export default {
         navColor: '#1C1A19',
         iconCol : '#f57f51',
         textCol: '#353334',
-        cardHov: '#1c1a19'
+        cardHov: '#1c1a19',
+        coloPar: '#948a8a'
       },
     },
   },

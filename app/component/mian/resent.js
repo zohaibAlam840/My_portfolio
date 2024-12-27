@@ -1,5 +1,8 @@
 import ProCard from '../projeCard'
-
+import porjetOne from "../../assets/p1.png"
+import porjetTwo from "../../assets/P2.png"
+import porjetThree from "../../assets/p3.png"
+import porjetFour from "../../assets/app.jpg"
 export default function Detail() {
     return (
       <section className="p-14">
@@ -10,23 +13,28 @@ export default function Detail() {
         </h1>
         <div className='flex flex-col gap-y-4 mt-5'>
         <ProCard
-        title="PixelForge Studios"
-        description="Led the design team in creating user-centric mobile and web applications, improving the user experience and increasing user engagement."
-        date="Jan 2020 – Present"
+        title="TechTax"
+        image={porjetThree}
+        date="Jan 2024 – Present"
         link="https://example.com"
       />
         <ProCard
-        title="PixelForge Studios"
-        description="Led the design team in creating user-centric mobile and web applications, improving the user experience and increasing user engagement."
-        date="Jan 2020 – Present"
-        link="https://example.com"
+        title="ARC Urdu News"
+        image={porjetTwo}
+        date="Jan 2024 – Present"
+        link="https://www.arcurdunews.com/"
       />
-
-        <ProCard
-        title="PixelForge Studios"
-        description="Led the design team in creating user-centric mobile and web applications, improving the user experience and increasing user engagement."
-        date="Jan 2020 – Present"
-        link="https://example.com"
+    <ProCard
+        title="BeautyBuddyAi"
+        image={porjetFour}
+        date="Jan 2024 – Present"
+        link="https://finanzbucht.vercel.app"
+      />
+    <ProCard
+        title="Finanzbucht"
+        image={porjetOne}
+        date="Jan 2024 – Present"
+        link="https://finanzbucht.vercel.app"
       />
         </div>
       </section>

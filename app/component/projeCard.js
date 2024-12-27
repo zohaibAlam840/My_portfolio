@@ -1,23 +1,23 @@
 import { FiArrowUpRight } from "react-icons/fi";
-// import Image from "next/image";
+import Image from "next/image";
 
-export default function InfoCard({ title, description, date, link }) {
+export default function InfoCard({ title, image, date, link }) {
   return (
     <div className="relative flex hover:bg-cardHov text-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-600 items-center gap-x-5 group transform group-hover:scale-105">
-      <div className="border-2 border-red-300 w-32 h-32 rounded-2xl">
+      <div className="w-32 h-32 rounded-2xl">
         {/* Uncomment if you want to use the profile image */}
-        {/* <Image 
-          src={imageProfile} 
+        <Image 
+          src={image} 
           alt="profile image" 
-          className="rounded-2xl h-64 w-72"
-        /> */}
+          className="rounded-2xl h-32 w-auto"
+        />
       </div>
       {/* Title */}
       <div>
         <h2 className="text-xl font-bold mb-2">{title}</h2>
 
         {/* Description */}
-        <p className="text-gray-400 mb-4">{description}</p>
+        {/* <p className="text-gray-400 mb-4">{description}</p> */}
 
         {/* Date */}
         <p className="text-sm text-gray-500">{date}</p>

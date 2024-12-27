@@ -8,22 +8,24 @@ export default function Detail() {
         </h1>
   
         {/* Description */}
-        <p className="mt-4 text-lg text-white">
-          Passionate about creating intuitive and engaging <br/>user experiences. 
-          Specialize in transforming ideas <br/>into beautifully crafted products.
+        <p className="mt-4 text-lg text-coloPar">
+        Dedicated to crafting seamless user experiences with a focus on design excellence and robust backend solutions. 
+        Skilled in turning concepts into functional, scalable, and visually stunning digital products.
         </p>
+
+
   
         {/* Statistics */}
-        <div className="flex mt-10">
+        <div className="flex mt-16 ">
           {[
-            { value: "+1", label: "YEARS OF \n EXPERIENCE" },
+            { value: "+01", label: "YEARS OF \n EXPERIENCE" },
             { value: "+10", label: "COMPLETED \n PROJECTS" },
-            { value: "+6", label: "HAPPY \n CLIENTS" },
+            { value: "+06", label: "HAPPY \n CLIENTS" },
           ].map((stat, index) => (
             <div key={index} className="text-7xl font-bold leading-none">
               {stat.value}
               <br />
-              <span className="text-lg font-medium text-white mt-2 block">{stat.label}</span>
+              <span className="text-sm font-medium mt-2 block pr-16 text-coloPar">{stat.label}</span>
             </div>
           ))}
         </div>

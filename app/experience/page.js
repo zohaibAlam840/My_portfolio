@@ -3,8 +3,6 @@ import { HiOutlineHome, HiOutlineCollection, HiOutlineLightBulb, HiOutlineBriefc
 import { FiTool } from "react-icons/fi";
 import Link from "next/link";
 import Intro from "./../component/mainCard";
-import Detail from "../component/mian/se";
-import Resent from "../component/mian/resent";
 import Expereience from "../component/mian/experinec";
 
 
@@ -55,8 +53,6 @@ export default function Home() {
 
         {/* Middle Column */}
         <div className="w-full h-screen">
-          <Detail />
-          <Resent />
           <Expereience />
         </div>
 
