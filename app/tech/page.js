@@ -1,15 +1,16 @@
 'use client'
+import { HiOutlineHome, HiOutlineCollection, HiOutlineLightBulb, HiOutlineBriefcase } from "react-icons/hi";
+import { FiTool } from "react-icons/fi";
+import Link from "next/link";
 import Intro from "./../component/mainCard";
-import Resent from "../component/mian/resent";
-// import Nav from "../component/nav"
+import Tool from "../component/mian/Tool";
+
 
 export default function Home() {
 
   return (
     <div className="flex flex-col w-screen h-screen bg-bgColor text-white overflow-x-hidden">
       
-      {/* Navbar */}
-      {/* <Nav /> */}
 
       {/* Main Content */}
       <div className="grid grid-cols-[2fr_2.5fr_1fr] gap-5 px-5">
@@ -22,7 +23,7 @@ export default function Home() {
 
         {/* Middle Column */}
         <div className="w-full h-screen">
-          <Resent />
+          <Tool />
         </div>
 
         {/* Right Column */}
